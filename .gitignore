@@ -1,0 +1,81 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+venv/
+env/
+.env
+.env.local
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ========================
+# ML / Data Files
+# ========================
+*.pkl
+*.joblib
+*.h5
+*.model
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# ========================
+# Node.js / Frontend
+# ========================
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# ========================
+# Media (large files)
+# ========================
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.gif
+*.zip
+*.tar.gz
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDE / Editors
+# ========================
+.vscode/
+.idea/
+*.suo
+*.sw?
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+
+# ========================
+# Git
+# ========================
+.git/

@@ -1,0 +1,53 @@
+.floating-logs {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 400px;
+  max-width: calc(100vw - 40px);
+  background: rgba(10, 10, 10, 0.95);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  z-index: 99;
+  overflow: hidden;
+  backdrop-filter: blur(20px);
+}
+
+.logs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(255, 87, 34, 0.1);
+  border-bottom: 1px solid var(--border-color);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.logs-count {
+  background: var(--orange-primary);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 100px;
+  font-size: 0.75rem;
+}
+
+.logs-body {
+  padding: 12px;
+  max-height: 200px;
+  overflow-y: auto;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+}
+
+.log-line {
+  padding: 6px 0;
+  border-left: 2px solid transparent;
+  padding-left: 8px;
+  margin-bottom: 4px;
+}
+
+.log-info { border-color: #4fc3f7; color: #4fc3f7; }
+.log-success { border-color: #66bb6a; color: #66bb6a; }
+.log-warning { border-color: #ffa726; color: #ffa726; }
+.log-error { border-color: #ef5350; color: #ef5350; }
